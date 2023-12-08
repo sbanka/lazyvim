@@ -4,4 +4,3 @@ doc/tags
 debug
 .repro
 *.log
-lazy-lock.json
