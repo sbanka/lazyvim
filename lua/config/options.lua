@@ -6,6 +6,8 @@ vim.opt.relativenumber = false
 vim.opt.guifont = { "JetBrainsMono Nerd Font", "h19" }
 vim.opt.clipboard = "unnamedplus"
 -- vim.opt.inccommand = "split"
+vim.cmd('nnoremap d "_d')
+vim.cmd('vnoremap d "_d')
 
 -- vim.g.clipboard = {
 --   name = "OSC 52",
